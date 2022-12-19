@@ -1,0 +1,9 @@
+.projects {
+  /* Use flexbox to layout the Project components in a grid */
+  display: flex;
+  flex-wrap: wrap;
+  /* Set the width of each Project component to 50% to allow for a maximum of two per row */
+  .project {
+    width: 50%;
+  }
+}

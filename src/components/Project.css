@@ -1,0 +1,15 @@
+.project {
+  /* Add a pastel turquoise background color */
+  background-color: #95d1ca;
+  /* Add a bold black box shadow */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 6px 6px rgba(0, 0, 0, 0.5);
+  /* Add some padding and make the container responsive to clicks */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  margin: 2.5px;
+}
