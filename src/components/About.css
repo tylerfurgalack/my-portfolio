@@ -1,0 +1,29 @@
+.about {
+  background-image: url('https://example.com/image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  font-size: 3em;
+  margin: 20px 0;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.about h3 {
+  font-size: 2em;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.about p {
+  font-size: 1.5em;
+  margin: 20px 0;
+  line-height: 1.5;
+  text-align: center;
+}
