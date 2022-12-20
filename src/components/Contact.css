@@ -1,0 +1,78 @@
+/* Contact component styles */
+.contact {
+  /* Use a monospace font and a pale gray color for the text */
+  font-family: monospace;
+  color: #999;
+
+  /* Add some padding to the component */
+  padding: 20px;
+
+  /* Use a dark gray background color for the component */
+  background-color: #333;
+}
+
+.contact h3 {
+  /* Use a larger font size and a pale gray color for the title */
+  font-size: 24px;
+  color: #999;
+
+  /* Add some margin to the title */
+  margin: 0 0 10px 0;
+}
+
+.contact form {
+  /* Add some margin to the form */
+  margin: 0 0 20px 0;
+}
+
+.contact label {
+  /* Use a smaller font size and a pale gray color for the label */
+  font-size: 14px;
+  color: #999;
+
+  /* Display the label as a block element */
+  display: block;
+
+  /* Add some margin to the label */
+  margin: 0 0 5px 0;
+}
+
+.contact input[type='email'] {
+  /* Use a monospace font and a pale gray color for the input field */
+  font-family: monospace;
+  color: #999;
+
+  /* Add some padding and a dark gray border to the input field */
+  padding: 5px;
+  border: 1px solid #333;
+
+  /* Use a pale gray background color for the input field */
+  background-color: #ccc;
+}
+
+.contact button[type='submit'] {
+  /* Use a monospace font and a pale gray color for the submit button */
+  font-family: monospace;
+  color: #999;
+
+  /* Add some padding and a dark gray border to the submit button */
+  padding: 5px 10px;
+  border: 1px solid #333;
+
+  /* Use a pale gray background color for the submit button */
+  background-color: #ccc;
+
+  /* Add some cursor styles to the submit button */
+  cursor: pointer;
+  cursor: hand;
+}
+
+.contact button[type='submit']:hover {
+  /* Use a darker gray background color for the submit button when hovered */
+  background-color: #aaa;
+}
+
+.contact button[type='submit']:active {
+  /* Use a darker gray background color for the submit button when active */
+  background-color: #666;
+}
